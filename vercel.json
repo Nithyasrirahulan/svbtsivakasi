@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/orders.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
+}

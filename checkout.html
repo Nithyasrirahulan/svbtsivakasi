@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Checkout | Srivari Balaji Traders</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="site-header"><nav class="nav container"><a class="brand" href="index.html"><span class="brand-mark">SB</span><span>Srivari Balaji Traders<small>Sivakasi Fireworks</small></span></a><div class="nav-links"><a href="shop.html">Shop</a><a href="cart.html">Cart <span id="cartCount">0</span></a></div></nav></header>
+<main class="section"><div class="container checkout-grid"><section><span class="eyebrow">CHECKOUT</span><h1>Customer Details</h1><form id="checkoutForm">
+<label>Full Name<input name="name" required></label>
+<label>Mobile Number<input name="mobile" type="tel" inputmode="numeric" pattern="[0-9 +()-]{10,15}" required></label>
+<label>Email Address<input name="email" type="email" required></label>
+<label>State<input name="state" value="Tamil Nadu" required></label>
+<label>Full Address<textarea name="address" rows="4" required></textarea></label>
+<p class="notice">Your order details will be sent to Srivari Balaji Traders for confirmation.</p>
+<button class="btn primary wide" type="submit" id="placeOrder">Place Order</button><div id="checkoutMsg"></div>
+</form></section><aside class="summary-box"><h2>Order Summary</h2><div id="checkoutItems"></div><hr><div class="summary-total"><span>Total</span><strong id="checkoutTotal">₹0</strong></div></aside></div></main>
+<footer><div class="copyright">© 2026 Srivari Balaji Traders</div></footer><script src="js/products.js"></script><script src="js/main.js"></script><script src="js/checkout.js"></script>
+</body></html>
